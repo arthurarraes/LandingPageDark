@@ -1,0 +1,145 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1rem;
+    background-color: var(--bg-color);
+}
+
+.introPhoto{
+    max-width:500px;
+    max-height:320px;
+    width: auto;
+    height: auto;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+.titulo h1{
+    margin: 0;
+}
+
+.subtitulo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+.subtitulo h2{
+    font-weight: 400;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.getStarted{
+    border-color: var(--blue);
+    background-color: var(--blue);
+    border-radius: 25px;
+    padding: 0.5rem 2rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.benefits{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3rem;
+    gap: 1rem;
+    align-items: center;
+    margin: 3rem;
+}
+
+.bnf{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bnf h1{
+    font-size: 1.5rem;
+}
+
+.bnf h2{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 0rem 4rem;
+}
+
+.productive{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 3rem;
+    gap: 2rem;
+    align-items: center;
+}
+
+.productive .productiveText h1{
+    font-size: 2rem;
+    padding: 0rem 11rem 0 0;
+}
+
+.productive .productiveText h2{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.productive .productiveText a{
+    text-decoration-color:  hsl(176, 68%, 64%);
+    color:  hsl(176, 68%, 64%);
+}
+
+.rate{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+    margin: 5rem;
+}
+.rate .aval{
+    background-color: #21293c;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.rate .aval h1{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.ratePerson{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.ratePerson img{
+    border-radius: 50%;
+    max-width:50px;
+    max-height:32px;
+    width: auto;
+    height: auto;
+}
+
+.ratePerson .ratePersonInfo h1{
+    margin: 0;
+    font-weight:700;
+    font-size: 0.9rem;
+}
+.ratePerson .ratePersonInfo h2{
+    margin: 0;
+    font-weight: 400;
+    font-size: 0.7rem;
+}

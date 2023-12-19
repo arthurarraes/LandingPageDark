@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+:root{
+  --bg-color: hsl(218, 28%, 13%);
+  --blue: hsl(198, 60%, 50%);
+  --cyan: hsl(176, 68%, 64%);
+}
